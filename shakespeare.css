@@ -98,3 +98,11 @@ table.striped td{
 table.striped tr.even td{
     background-color: #E1FFE1;
 }
+.CAMILLO:hover {
+    text-shadow: 2px 2px red;
+    box-shadow: 2px 2px black;
+}
+.archidamus:hover {
+      text-shadow: 2px 2px red;
+      box-shadow: 3px 3px black;
+}
