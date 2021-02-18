@@ -37,3 +37,64 @@ h3
 {    
     color: darkgoldenrod;
 }
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-bottom: 1px,solid #006699;
+    margin-bottom: 5%;
+}
+td,th{
+    padding: 3px 10px;
+    text-align: center;
+}
+th{
+    font-weight: bold;
+    color: #006699;
+}
+thead tr{
+    border-bottom: 1px solid #006699;
+}
+tbody th{
+    border-right: 1px solid #006699;
+    text-align: right;
+    border-left: 1px solid #006699;
+}
+td{
+    background-color: #ffffcc;    
+    border-right: 1px solid #006699;
+    border-left: 1px solid #006699;
+}
+tr.even td{
+   background-color: #E1FFE1; 
+}
+table.striped{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-bottom: 1px,solid #006699;
+}
+table.striped td, table.striped th{
+    padding: 3px, 10px;
+    text-align: center;
+}
+table.striped th{
+    font-weight: bold;
+    color:#006699;
+    border-right: 1px solid #006699;
+    text-align: right;
+    border-left:1px solid #006699;
+    border-top: 1px solid #006699;
+}
+table.striped thead tr{
+    border-bottom: 1px,solid #006699;
+}
+table.striped thead th{
+    border-right: 1px solid #006699;
+    text-align: right;
+}
+table.striped td{
+    background-color: #ffffcc;
+    border-bottom: 1px solid #006699;
+}
+table.striped tr.even td{
+    background-color: #E1FFE1;
+}
